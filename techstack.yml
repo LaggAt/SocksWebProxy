@@ -1,0 +1,98 @@
+repo_name: LaggAt/SocksWebProxy
+report_id: c5c7ba05e3415732abf2f8ff1653b4dc
+version: 0.1
+repo_type: Public
+timestamp: '2024-03-17T13:53:45+00:00'
+requested_by: postworthy
+provider: github
+branch: master
+detected_tools_count: 7
+tools:
+- name: ASP.NET
+  description: An open source web framework for building modern web apps and services
+    with .NET
+  website_url: https://www.asp.net/
+  version: '4.0'
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6755/2c45151a4a11d3a3c8e71bb34dd069d6_400x400.png
+  detection_source_url: https://github.com/LaggAt/SocksWebProxy/blob/master/Org.Mentalis/Org.Mentalis.csproj
+  detection_source: Org.Mentalis/Org.Mentalis.csproj
+  last_updated_by: Landon Key
+  last_updated_on: 2014-01-25 22:32:18.000000000 Z
+- name: C#
+  description: Simple, general-purpose, object-oriented programming language for the
+    .NET platform
+  website_url: http://csharp.net
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1015/1200px-C_Sharp_wordmark.svg.png
+  detection_source_url: https://github.com/LaggAt/SocksWebProxy
+  detection_source: Repo Metadata
+- name: ".NET"
+  description: A free, cross-platform, open source developer platform for building
+    many different types of applications
+  website_url: http://www.microsoft.com/net/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/LaggAt/SocksWebProxy/blob/master/Tests/packages.config
+  detection_source: Tests/packages.config
+  last_updated_by: Landon Key
+  last_updated_on: 2014-02-06 15:47:37.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/LaggAt/SocksWebProxy
+  detection_source: Repo Metadata
+- name: NuGet
+  description: The package manager for .NET
+  website_url: https://www.nuget.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/LaggAt/SocksWebProxy/blob/master/Tests/packages.config
+  detection_source: Tests/packages.config
+  last_updated_by: Landon Key
+  last_updated_on: 2014-02-06 15:47:37.000000000 Z
+- name: Visual Studio
+  description: State-of-the-art tools and services that you can use to create great
+    apps for devices, the cloud, and everything in between.
+  website_url: http://msdn.microsoft.com/en-us/vstudio/aa718325.aspx
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Integrated Development Environment
+  image_url: https://img.stackshare.io/service/1451/SR2hUhQN.png
+  detection_source_url: https://github.com/LaggAt/SocksWebProxy/blob/master/SocksWebProxy.sln
+  detection_source: SocksWebProxy.sln
+  last_updated_by: Landon Key
+  last_updated_on: 2014-01-25 22:32:18.000000000 Z
+- name: HtmlAgilityPack
+  description: This is an agile HTML parser that builds a read/write DOM and supports
+    plain XPATH or XSLT
+  package_url: https://www.nuget.org/HtmlAgilityPack
+  version: 1.4.6
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12918/default_e43fb8cd51d87352a1197706afa527de5c3baecd.png
+  detection_source_url: https://github.com/LaggAt/SocksWebProxy/blob/master/Tests/packages.config
+  detection_source: Tests/packages.config
+  last_updated_by: Landon Key
+  last_updated_on: 2014-02-06 15:47:37.000000000 Z
